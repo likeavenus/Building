@@ -13,3 +13,10 @@ $('.offer__box-info').on('click', '.offer__box-text', (e)=> {
     $('.lightbox').css('background-image', `url(${srcAttr})`);
   });
 });
+function randomInteger(min, max) {
+  var rand = min - 0.5 + Math.random() * (max - min + 1)
+  rand = Math.round(rand);
+  return rand;
+}
+document.getElementById('random').innerHTML = randomInteger(1000, 9999);
+
