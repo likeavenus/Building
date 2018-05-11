@@ -8,29 +8,29 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" type="text/css" href="css/slick.css">
   <link rel="stylesheet" href="css/slick-theme.css">
-  <link rel="stylesheet" href="../src/css/lightbox.css">
+  <link rel="stylesheet" href="css/lightbox.css">
 </head>
 <body>
-  <div class="slick-container">
+  <div class="slick-container"  id="first-block">
     <div class="slick">
       <header class="header">
         <div class="header__container">
           <nav class="menu">
             <ul class="menu__list">
               <li class="menu__list-item">
-                <a href="#" class="menu__link">Главная</a>
+                <a href="#first-block" class="menu__link">Главная</a>
               </li>
               <li class="menu__list-item">
-                <a href="#" class="menu__link">Преимущества</a>
+                <a href="#second-block" class="menu__link">Преимущества</a>
               </li>
               <li class="menu__list-item">
-                <a href="#" class="menu__link">Описание комплекса</a>
+                <a href="#third-block" class="menu__link">Описание комплекса</a>
               </li>
               <li class="menu__list-item">
-                <a href="#" class="menu__link">Квартиры</a>
+                <a href="#fourth-block" class="menu__link">Квартиры</a>
               </li>
               <li class="menu__list-item">
-                <a href="#" class="menu__link">Контакты</a>
+                <a href="#five-block" class="menu__link">Контакты</a>
               </li>
             </ul>
           </nav>
@@ -61,7 +61,7 @@
         </div>
       </header>
         <header class="header">
-          <video autoplay muted loop class="header__video" src="../src/video/video.mp4"  type="video/mp4"></video>
+          <video autoplay muted loop class="header__video" src="video/video.mp4"  type="video/mp4"></video>
       </header>
         <header class="header header--bgr">
         <div class="header__container">
@@ -72,7 +72,7 @@
   </div>
   <main>
     <div class="head-container">
-      <section class="container">
+      <section class="container" id="second-block">
         <div class="container__item">
           <div class="title-box">
             <h2 class="container__title">наши <span class="orange">преимущества</span></h2>
@@ -106,7 +106,7 @@
               </div>
 
               <div class="lightbox">
-                <a href="../src/img/light-box.jpg" data-lightbox="image-1">
+                <a href="img/3D/16.jpg" data-lightbox="image-1">
                   <div class="lightbox__zoom">
                     <div class="lightbox__icon"></div>
                   </div>
@@ -145,7 +145,7 @@
           </div>
         </div>
       </section>
-      <section class="description">
+      <section class="description" id="third-block">
         <aside class="nav">
           <div class="nav__item">
             <ul class="list">
@@ -172,7 +172,7 @@
         </div>
         <div class="description__bottom"></div>
       </section>
-      <section class="promo-code">
+      <section class="promo-code" id="third-block">
         <div class="promo-code__container">
           <div class="promo-code__box">
             <p class="f-text">до конца апреля</p>
@@ -197,7 +197,7 @@
           </div>
         </div>
       </section>
-      <section class="apartmens">
+      <section class="apartmens" id="fourth-block">
         <div class="apartmens__box">
           <aside class="apartmens__aside">
             <div class="nav__item">
@@ -217,9 +217,12 @@
               </ul>
             </div>
         </aside>
+
           <div class="apartmens__box-item">
             <!-- house 1 -->
             <div class="house">
+              <a class="light3d" href="img/3D/15.jpg" data-lightbox="image"></a>
+              <div class="light-btn"></div>
               <div class="first-box">
                 <div class="first-box__img"></div>
                 <div class="first-box__wrap">
@@ -241,6 +244,7 @@
                     <p class="plan__text">9</p>
                   </div>
                 </div>
+
                 <div class="flag">
                   <span class="flag__text">наша цена</span>
                 </div>
@@ -254,7 +258,8 @@
                 </div>
              </div>
              <!-- house 2 -->
-             <div class="house">
+             <div class="house house--2">
+              <a class="light3d" href="img/3D/13.jpg" data-lightbox="image"></a>
               <div class="first-box">
                 <div class="first-box__img"></div>
                 <div class="first-box__wrap">
@@ -289,7 +294,8 @@
                 </div>
              </div>
              <!-- house 3 -->
-             <div class="house">
+             <div class="house house--3">
+              <a class="light3d" href="img/3D/16.jpg" data-lightbox="image"></a>
               <div class="first-box">
                 <div class="first-box__img"></div>
                 <div class="first-box__wrap">
@@ -324,7 +330,8 @@
                 </div>
              </div>
              <!-- house 4 -->
-             <div class="house">
+             <div class="house house--4">
+              <a class="light3d" href="img/3D/3.jpg" data-lightbox="image"></a>
               <div class="first-box">
                 <div class="first-box__img"></div>
                 <div class="first-box__wrap">
@@ -359,7 +366,7 @@
                 </div>
              </div>
              <!-- house 5 -->
-             <div class="house">
+             <div class="house house--5">
               <div class="first-box">
                 <div class="first-box__img"></div>
                 <div class="first-box__wrap">
@@ -394,7 +401,8 @@
                 </div>
              </div>
              <!-- house 6 -->
-             <div class="house">
+             <div class="house house--6">
+              <a class="light3d" href="img/3D/9.jpg" data-lightbox="image"></a>
               <div class="first-box">
                 <div class="first-box__img"></div>
                 <div class="first-box__wrap">
@@ -429,7 +437,8 @@
                 </div>
              </div>
              <!-- house 7 -->
-             <div class="house">
+             <div class="house house--7">
+              <a class="light3d" href="img/3D/11.jpg" data-lightbox="image"></a>
               <div class="first-box">
                 <div class="first-box__img"></div>
                 <div class="first-box__wrap">
@@ -464,7 +473,7 @@
                 </div>
              </div>
              <!-- house 8 -->
-             <div class="house">
+             <div class="house house--8">
               <div class="first-box">
                 <div class="first-box__img"></div>
                 <div class="first-box__wrap">
@@ -502,12 +511,41 @@
           </div>
         </div>
       </section>
+      <section class="selection">
+        <div class="promo-code__container">
+          <div class="promo-code__box">
+            <p class="f-text">не нашли</p>
+            <p class="s-text">нужный вариант квартиры?</p>
+            <span class="th-text">оставьте заявку</span>
+          </div>
+          <div class="promo-code__wrap">
+            <p class="five-text">и мы </p>
+             <span class="six-text"> подберем</span>
+            <div class="randomizer">
+              <div class="input__box">
+                <div class="input__box-wrap-one">
+                  <input type="text" placeholder="Имя">
+                  <input type="text" placeholder="Телефон">
+                </div>
+                <div class="input__box-wrap-two">
+                  <button class="input__box-button">Подобрать вариант</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="map" id="five-block">
+        <div class="box-map">
+          <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A641856b20b271d608a95da16a7363071a57f2bb698854f3bce60545b2ac21238&amp;width=100%&amp;height=631&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+      </section>
     </div>   <!-- head-container -->
   </main>
   <footer></footer>
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/script.js"></script>
   <script src="js/slick.min.js"></script>
-  <script src="../src/js/lightbox.js"></script>
+  <script src="js/lightbox.js"></script>
 </body>
 </html>

@@ -603,6 +603,14 @@ aside {
   margin-right: -50%;
   transform: translate(-45%, 29%); }
 
+.light3d {
+  width: 230px;
+  height: 197px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
 .house {
   width: 230px;
   height: 254px;
@@ -610,6 +618,27 @@ aside {
   position: relative;
   background: url(../img/bg-box.png) no-repeat;
   margin: 10px 5px; }
+
+.house--2 {
+  background: url(../img/bg-box2.png) no-repeat; }
+
+.house--3 {
+  background: url(../img/bg-box3.png) no-repeat; }
+
+.house--4 {
+  background: url(../img/bg-box4.png) no-repeat; }
+
+.house--5 {
+  background: #fff url(../img/no-image.png) no-repeat 25% 49%; }
+
+.house--6 {
+  background: url(../img/bg-box6.png) no-repeat; }
+
+.house--7 {
+  background: url(../img/bg-box7.png) no-repeat; }
+
+.house--8 {
+  background: #fff url(../img/no-image.png) no-repeat 25% 49%; }
 
 .first-box {
   position: relative;
@@ -727,3 +756,38 @@ aside {
 
 .flag3__text:nth-child(2) {
   text-decoration: line-through; }
+
+.selection {
+  background: url(../img/bg-6.png);
+  width: 100%;
+  height: 596px;
+  top: -16px;
+  text-transform: uppercase;
+  color: #fff;
+  position: relative; }
+
+.selection p {
+  margin: 0; }
+
+.selection .six-text {
+  font-size: 71px; }
+
+.selection .s-text {
+  width: 510px; }
+
+.selection .th-text {
+  width: 158px; }
+
+.selection .five-text {
+  font-size: 35px; }
+
+.selection .five-text, .selection .six-text {
+  align-self: flex-start; }
+
+.selection .promo-code__container {
+  position: absolute;
+  left: 250px;
+  top: 143px; }
+
+.map {
+  height: 800px; }
