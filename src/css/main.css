@@ -449,15 +449,15 @@ aside {
 
 .list__item > a, .list__item2 > a {
   text-transform: uppercase;
-  text-decoration: none;
-  font-family: PFDinTextCondPro-Thin; }
+  text-decoration: none; }
 
 .list__item > a {
   font-size: 30px; }
 
 .list2__link {
   font-size: 18px;
-  color: #fff; }
+  color: #fff;
+  font-family: MyriadCond-Pro; }
   .list2__link:hover {
     color: #000; }
 
@@ -465,10 +465,12 @@ aside {
   list-style: none; }
 
 .list__link1 {
-  color: #fff; }
+  color: #fff;
+  font-family: PFDinTextCondPro-Thin; }
 
 .list__link2 {
-  color: #000; }
+  color: #000;
+  font-family: PFDinTextCondPro-Thin; }
 
 .description__box {
   position: absolute;
@@ -587,13 +589,141 @@ aside {
   position: relative; }
 
 .apartmens__box-item {
+  width: 980px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
   position: absolute;
-  top: 55%;
-  left: 50%; }
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-45%, 29%); }
 
 .house {
   width: 230px;
   height: 254px;
-  background-color: #fff;
+  background: #fff;
+  position: relative;
+  background: url(../img/bg-box.png) no-repeat;
+  margin: 10px 5px; }
+
+.first-box {
+  position: relative;
+  text-transform: uppercase;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  margin: 5px 5px; }
+  .first-box__wrap {
+    position: relative; }
+  .first-box__text {
+    font-size: 20px;
+    color: #cf613b;
+    margin: 10px; }
+  .first-box__text:before {
+    content: '';
+    display: inline-block;
+    background: url(../img/mini-arrow.png) no-repeat;
+    width: 6px;
+    height: 10px;
+    vertical-align: 2px;
+    margin-right: 7px; }
+  .first-box__span {
+    font-size: 14px;
+    color: #676666;
+    position: absolute;
+    right: 10px; }
+  .first-box__img {
+    background: url(../img/round.png) no-repeat;
+    width: 41px;
+    height: 41px;
+    margin: 7px; }
+
+.plan {
+  bottom: 82px;
+  right: 7px;
   position: absolute;
-  background: url(../img/bg-box.png); }
+  text-align: right; }
+  .plan p {
+    margin: 0;
+    font-size: 14px; }
+  .plan__title {
+    color: #cf613b; }
+  .plan__text {
+    color: #000; }
+
+.flag {
+  position: absolute;
+  background: url(../img/our-cost-wrap.png) no-repeat;
+  width: 150px;
+  height: 27px;
+  bottom: 30px; }
+
+.flag2 {
+  position: absolute;
+  background: url(../img/our-cost.png) no-repeat;
+  width: 108px;
+  height: 27px;
+  bottom: 30px;
+  right: 0;
+  transition: .2s background ease; }
+  .flag2:hover {
+    background: url(../img/our-cost-b.png) no-repeat;
+    width: 108px;
+    cursor: pointer; }
+
+.flag, .flag2, .flag3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #fff; }
+
+.flag2:hover .flag2__text {
+  display: none; }
+
+.flag2 .flag2__text2 {
+  display: none; }
+
+.flag2:hover .flag2__text2 {
+  display: block;
+  color: #fff;
+  text-align: right;
+  margin: 7px 10px 0px 10px; }
+
+.flag2__text {
+  display: block;
+  text-align: right;
+  margin: 7px 10px 0px 10px; }
+
+.flag__text {
+  display: block;
+  text-align: left;
+  margin: 7px 10px 0px 10px; }
+
+.flag3 {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: url(../img/cost-firm.png) no-repeat;
+  width: 228px;
+  height: 27px;
+  position: absolute;
+  bottom: 0; }
+
+.flag3__text {
+  margin: 10px; }
+
+.flag3__text:nth-child(2) {
+  text-decoration: line-through; }
